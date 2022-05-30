@@ -2,6 +2,9 @@ var object = {
   name: 'Larisa',
   surname: 'Breazdau',
   age: 21,
+  petOwner: false,
+  carOwner: true,
+  birthYear: 2001,
 };
 
 console.log(object.name);
@@ -17,6 +20,12 @@ console.log(
     ' si am ' +
     object.age +
     ' ani.',
+);
+
+console.log(object.name + ' s-a nascut in ' + object.birthYear + '.');
+
+console.log(
+  object.name + ' ' + object.surname + ' are ' + object.age + ' ani.',
 );
 
 console.warn(
