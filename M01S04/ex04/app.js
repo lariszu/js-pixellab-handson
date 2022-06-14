@@ -35,6 +35,53 @@ var i = 0;
 // }
 
 // In mod similar, afiseaza doar numerele care sunt divizibile cu 5.
+
+//Modifica exemplul astfel incat bucla sa numere de la 1 la 89.
+for (i = 1; i <= 89; i++) {
+  console.log(i);
+}
+
+// Modifica exemplul astfel incat bucla sa numere de la 1 la 88 .
+for (i = 1; 1 <= 89; ) {
+  console.log(i);
+}
+
+// Folosind keywordul break opreste bucla atunci cand numarul este egal cu 42.
+for (i = 1; i < 100; ) {
+  console.log(i);
+
+  if (i === 42) {
+    break;
+  }
+}
+
+// Folosind keywordul continue, afiseaza doar numele impare intre 1 si 89.
+
+for (i = 1; i <= 89; ) {
+  console.log(i);
+
+  {
+    if (i % 2 == 0) {
+      break;
+    } else {
+      continue;
+    }
+  }
+}
+
+// In mod similar, afiseaza doar numerele care sunt divizibile cu 3.
+
+for (i = 1; i < 100; ) {
+  console.log(i);
+  {
+    if (i % 3 == 0) {
+      continue;
+    } else {
+      break;
+    }
+  }
+}
+
 for (i = 1; i <= 100; i++) {
   if (i % 5 === 0) {
     console.log(i);
